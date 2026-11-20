@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Drive Easy</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark navbar-drive sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><i class="fa fa-car"></i> Drive Easy<span class="brand-dot">.</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="fleet.html">Fleet</a></li>
+      <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+      <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+      </ul>
+      <a class="btn btn-amber my-2 my-lg-0" href="booking.html">Book a car</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="container">
+    <h1 class="h3 font-weight-bold mb-1">Gallery</h1>
+    <p class="mb-0 text-white-50">Our cars and the roads we drive on.</p>
+  </div>
+</header>
+
+<div class="container py-4">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-white px-0">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+    </ol>
+  </nav>
+
+  <div id="gallery" class="carousel slide shadow-sm" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#gallery" data-slide-to="0" class="active"></li>
+      <li data-target="#gallery" data-slide-to="1"></li>
+      <li data-target="#gallery" data-slide-to="2"></li>
+      <li data-target="#gallery" data-slide-to="3"></li>
+      <li data-target="#gallery" data-slide-to="4"></li>
+      <li data-target="#gallery" data-slide-to="5"></li>
+      <li data-target="#gallery" data-slide-to="6"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/hero.jpg" alt="The coastal road out of Jamnagar" style="width:100%;height:440px;object-fit:cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The coastal road out of Jamnagar</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/swift.jpg" alt="Maruti Swift" style="width:100%;height:440px;object-fit:cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Maruti Swift</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/i20.jpg" alt="Hyundai i20" style="width:100%;height:440px;object-fit:cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Hyundai i20</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/city.jpg" alt="Honda City" style="width:100%;height:440px;object-fit:cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Honda City</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/verna.jpg" alt="Hyundai Verna" style="width:100%;height:440px;object-fit:cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Hyundai Verna</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.w3schools.com/w3images/ocean.jpg" alt="Shivrajpur beach, Dwarka" style="width:100%;height:440px;object-fit:cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Shivrajpur beach, Dwarka</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Girnar foothills at sunrise" style="width:100%;height:440px;object-fit:cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Girnar foothills at sunrise</h5>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#gallery" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#gallery" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <div class="row mt-3">
+        <div class="col-4 col-md-2 mb-2">
+          <img src="img/hero.jpg" class="img-thumbnail thumb" data-target="#gallery" data-slide-to="0"
+               data-toggle="tooltip" title="The coastal road out of Jamnagar" alt="The coastal road out of Jamnagar">
+        </div>
+        <div class="col-4 col-md-2 mb-2">
+          <img src="img/swift.jpg" class="img-thumbnail thumb" data-target="#gallery" data-slide-to="1"
+               data-toggle="tooltip" title="Maruti Swift" alt="Maruti Swift">
+        </div>
+        <div class="col-4 col-md-2 mb-2">
+          <img src="img/i20.jpg" class="img-thumbnail thumb" data-target="#gallery" data-slide-to="2"
+               data-toggle="tooltip" title="Hyundai i20" alt="Hyundai i20">
+        </div>
+        <div class="col-4 col-md-2 mb-2">
+          <img src="img/city.jpg" class="img-thumbnail thumb" data-target="#gallery" data-slide-to="3"
+               data-toggle="tooltip" title="Honda City" alt="Honda City">
+        </div>
+        <div class="col-4 col-md-2 mb-2">
+          <img src="img/verna.jpg" class="img-thumbnail thumb" data-target="#gallery" data-slide-to="4"
+               data-toggle="tooltip" title="Hyundai Verna" alt="Hyundai Verna">
+        </div>
+        <div class="col-4 col-md-2 mb-2">
+          <img src="https://www.w3schools.com/w3images/ocean.jpg" class="img-thumbnail thumb" data-target="#gallery" data-slide-to="5"
+               data-toggle="tooltip" title="Shivrajpur beach, Dwarka" alt="Shivrajpur beach, Dwarka">
+        </div>
+        <div class="col-4 col-md-2 mb-2">
+          <img src="https://www.w3schools.com/w3images/mountains.jpg" class="img-thumbnail thumb" data-target="#gallery" data-slide-to="6"
+               data-toggle="tooltip" title="Girnar foothills at sunrise" alt="Girnar foothills at sunrise">
+        </div>
+  </div>
+
+  <div class="card bg-light border-0 mt-4">
+    <div class="card-body d-md-flex justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0"><strong>Want your car in this gallery?</strong> Book it for the weekend
+      and send us your best photo.</p>
+      <a href="booking.html" class="btn btn-amber">Book a car</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function () { $('[data-toggle="tooltip"]').tooltip(); });
+</script>
+
+<footer class="site-footer pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h6>Drive Easy</h6>
+        <p class="small mb-2">Self drive cars in Jamnagar. Clean cars, full tanks and fixed prices
+        since 2024.</p>
+        <p class="small mb-0"><i class="fa fa-phone"></i> +91 98765 43210<br>
+        <i class="fa fa-envelope-o"></i> hello@driveeasy.in</p>
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <h6>Company</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <h6>Rentals</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a href="fleet.html">Our fleet</a></li>
+          <li><a href="booking.html">Book a car</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h6>Office</h6>
+        <p class="small mb-2">Airport Road, Near Khodiyar Colony,<br>Jamnagar 361006, Gujarat</p>
+        <p class="small mb-0">Open daily 8 am &ndash; 9 pm</p>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <div class="d-flex justify-content-between flex-wrap small">
+      <span>&copy; 2026 Drive Easy, Jamnagar. All rights reserved.</span>
+      <span>Built with Bootstrap 4</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Drive Easy</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark navbar-drive sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><i class="fa fa-car"></i> Drive Easy<span class="brand-dot">.</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="fleet.html">Fleet</a></li>
+      <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+      <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+      </ul>
+      <a class="btn btn-amber my-2 my-lg-0" href="booking.html">Book a car</a>
+    </div>
+  </div>
+</nav>
+<section class="hero">
+  <div class="container">
+    <span class="badge badge-amber bg-warning text-dark mb-3">Jamnagar &middot; Gujarat</span>
+    <h1>Self drive cars<br>in Jamnagar</h1>
+    <p class="lead mt-3">Pick a car, keep the keys and drive on your own schedule. Free doorstep
+    delivery inside the city, full tank and fixed daily rates.</p>
+    <a href="fleet.html" class="btn btn-amber btn-lg mr-2">See our fleet</a>
+    <a href="booking.html" class="btn btn-outline-light btn-lg">Book a car</a>
+  </div>
+</section>
+
+<div class="container">
+  <form class="search-card shadow" action="fleet.html">
+    <div class="row align-items-end">
+      <div class="col-md-3 mb-3 mb-md-0">
+        <label for="city">Pickup city</label>
+        <select class="custom-select" id="city">
+          <option selected>Jamnagar</option>
+          <option>Rajkot</option>
+          <option>Dwarka</option>
+        </select>
+      </div>
+      <div class="col-md-3 mb-3 mb-md-0">
+        <label for="from">Pickup date</label>
+        <input type="date" class="form-control" id="from" value="2026-08-20">
+      </div>
+      <div class="col-md-3 mb-3 mb-md-0">
+        <label for="to">Return date</label>
+        <input type="date" class="form-control" id="to" value="2026-08-22">
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-amber btn-block" type="submit"><i class="fa fa-search"></i> Search cars</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<section class="container py-5">
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="stat">
+        <h2 class="h5 font-weight-bold mb-1"><i class="fa fa-key text-warning"></i> Self drive</h2>
+        <p class="small text-muted mb-0">No driver, no meter. A valid LMV licence and a photo ID
+        are all you need.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="stat">
+        <h2 class="h5 font-weight-bold mb-1"><i class="fa fa-inr text-warning"></i> Fixed price</h2>
+        <p class="small text-muted mb-0">Daily rates include insurance and 80 km of fuel. No
+        hidden charges at return.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="stat">
+        <h2 class="h5 font-weight-bold mb-1"><i class="fa fa-road text-warning"></i> Roadside help</h2>
+        <p class="small text-muted mb-0">24x7 assistance anywhere in Gujarat, included with every
+        booking.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container pb-5">
+  <div class="d-flex justify-content-between align-items-end mb-4">
+    <h2 class="section-title h3 mb-0">Popular cars</h2>
+    <a href="fleet.html" class="small font-weight-bold">View all cars &rarr;</a>
+  </div>
+  <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card car-card h-100 shadow-sm">
+          <img class="card-img-top" src="img/swift.jpg" alt="Maruti Swift">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+              <h5 class="mb-1">Maruti Swift</h5>
+              <span class="badge badge-soft">Hatchback</span>
+            </div>
+            <p class="small text-muted mb-2">Petrol &middot; Manual &middot; 5 seats</p>
+            <p class="card-text small">The easiest car for Jamnagar lanes. Great mileage, easy parking.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="price">&#8377;1,299 <small class="text-muted font-weight-normal">/day</small></span>
+              <a href="booking.html" class="btn btn-sm btn-amber">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card car-card h-100 shadow-sm">
+          <img class="card-img-top" src="img/city.jpg" alt="Honda City">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+              <h5 class="mb-1">Honda City</h5>
+              <span class="badge badge-soft">Sedan</span>
+            </div>
+            <p class="small text-muted mb-2">Petrol &middot; Automatic &middot; 5 seats</p>
+            <p class="card-text small">Comfortable automatic sedan for city work and Rajkot runs.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="price">&#8377;1,799 <small class="text-muted font-weight-normal">/day</small></span>
+              <a href="booking.html" class="btn btn-sm btn-amber">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card car-card h-100 shadow-sm">
+          <img class="card-img-top" src="img/verna.jpg" alt="Hyundai Verna">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+              <h5 class="mb-1">Hyundai Verna</h5>
+              <span class="badge badge-soft">New</span>
+            </div>
+            <p class="small text-muted mb-2">Petrol &middot; Automatic &middot; 5 seats</p>
+            <p class="card-text small">Boot space and comfort for a long weekend trip.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="price">&#8377;1,899 <small class="text-muted font-weight-normal">/day</small></span>
+              <a href="booking.html" class="btn btn-sm btn-amber">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<section class="bg-light py-5">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-6 col-md-3 mb-3">
+        <p class="h2 font-weight-bold mb-0 text-dark">4</p>
+        <p class="small text-muted mb-0">Cars in the fleet</p>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <p class="h2 font-weight-bold mb-0 text-dark">1.2k+</p>
+        <p class="small text-muted mb-0">Bookings completed</p>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <p class="h2 font-weight-bold mb-0 text-dark">4.8</p>
+        <p class="small text-muted mb-0">Average rating</p>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <p class="h2 font-weight-bold mb-0 text-dark">24x7</p>
+        <p class="small text-muted mb-0">Support on the road</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container py-5">
+  <div class="card border-0 shadow-sm">
+    <div class="card-body p-4 p-md-5 d-md-flex justify-content-between align-items-center">
+      <div class="mb-3 mb-md-0">
+        <h3 class="h4 font-weight-bold mb-1">Ready to drive today?</h3>
+        <p class="text-muted mb-0">Book before 6 pm and we will deliver the car to your door tonight.</p>
+      </div>
+      <a href="booking.html" class="btn btn-amber btn-lg">Book a car</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h6>Drive Easy</h6>
+        <p class="small mb-2">Self drive cars in Jamnagar. Clean cars, full tanks and fixed prices
+        since 2024.</p>
+        <p class="small mb-0"><i class="fa fa-phone"></i> +91 98765 43210<br>
+        <i class="fa fa-envelope-o"></i> hello@driveeasy.in</p>
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <h6>Company</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <h6>Rentals</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a href="fleet.html">Our fleet</a></li>
+          <li><a href="booking.html">Book a car</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h6>Office</h6>
+        <p class="small mb-2">Airport Road, Near Khodiyar Colony,<br>Jamnagar 361006, Gujarat</p>
+        <p class="small mb-0">Open daily 8 am &ndash; 9 pm</p>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <div class="d-flex justify-content-between flex-wrap small">
+      <span>&copy; 2026 Drive Easy, Jamnagar. All rights reserved.</span>
+      <span>Built with Bootstrap 4</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

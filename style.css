@@ -1,0 +1,38 @@
+/* Drive Easy - custom look on top of Bootstrap 4 */
+:root { --navy: #0d2137; --amber: #ffb400; }
+body { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #2b2f36; }
+.navbar-drive { background: var(--navy); }
+.navbar-drive .navbar-brand { font-weight: 700; letter-spacing: .5px; color: #fff; }
+.brand-dot { color: var(--amber); }
+.navbar-drive .nav-link { color: #c9d4e0 !important; }
+.navbar-drive .nav-link:hover, .navbar-drive .nav-link.active { color: var(--amber) !important; }
+.btn-amber { background: var(--amber); border-color: var(--amber); color: var(--navy); font-weight: 600; }
+.btn-amber:hover { background: #e6a200; border-color: #e6a200; color: var(--navy); }
+.hero { background: linear-gradient(90deg, rgba(9,20,33,.88), rgba(9,20,33,.30)), url("img/hero.jpg") center / cover no-repeat;
+  color: #fff; padding: 100px 0 120px; }
+.hero h1 { font-size: 2.9rem; font-weight: 700; line-height: 1.12; }
+.hero .lead { max-width: 540px; color: #e8eef5; }
+.search-card { margin-top: -60px; background: #fff; border-radius: .6rem; padding: 18px; }
+.search-card label { font-size: .78rem; text-transform: uppercase; letter-spacing: .5px; color: #6b7684; }
+.car-card img { height: 190px; object-fit: cover; }
+.car-card .card-body { padding: 1rem 1.1rem; }
+.price { font-weight: 700; color: var(--navy); font-size: 1.15rem; }
+.badge-soft { background: #fff3d1; color: #8a6100; }
+.section-title { font-weight: 700; color: var(--navy); }
+.section-title:after { content: ""; display: block; width: 52px; height: 4px; background: var(--amber);
+  margin-top: 10px; border-radius: 2px; }
+.page-head { background: var(--navy); color: #fff; padding: 46px 0 34px; }
+.page-head .breadcrumb { background: transparent; padding: 0; margin: 0; }
+.page-head .breadcrumb-item a { color: var(--amber); }
+.page-head .breadcrumb-item + .breadcrumb-item::before { color: #8ea0b4; }
+.stat { border-left: 3px solid var(--amber); padding-left: 12px; }
+.site-footer { background: var(--navy); color: #b9c6d4; }
+.site-footer a { color: #b9c6d4; }
+.site-footer a:hover { color: var(--amber); text-decoration: none; }
+.site-footer h6 { color: #fff; text-transform: uppercase; letter-spacing: 1px; font-size: .82rem; }
+.thumb { height: 78px; width: 100%; object-fit: cover; cursor: pointer; }
+.media-avatar { width: 74px; height: 74px; object-fit: cover; }
+.step { width: 34px; height: 34px; border-radius: 50%; background: var(--amber); color: var(--navy);
+  font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }
+.accordion .card-header { background: #f4f6f9; }
+.list-group-item.active { background: var(--navy); border-color: var(--navy); }

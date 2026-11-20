@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fleet | Drive Easy</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark navbar-drive sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><i class="fa fa-car"></i> Drive Easy<span class="brand-dot">.</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link active" href="fleet.html">Fleet</a></li>
+      <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+      <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+      </ul>
+      <a class="btn btn-amber my-2 my-lg-0" href="booking.html">Book a car</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="container">
+    <h1 class="h3 font-weight-bold mb-1">Our fleet</h1>
+    <p class="mb-0 text-white-50">Four well maintained cars, all available for self drive in Jamnagar.</p>
+  </div>
+</header>
+
+<div class="container py-4">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-white px-0">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Fleet</li>
+    </ol>
+  </nav>
+
+  <div class="btn-toolbar mb-4" role="toolbar">
+    <div class="btn-group btn-group-toggle mr-2 mb-2" data-toggle="buttons">
+      <label class="btn btn-outline-dark active"><input type="radio" checked> All cars</label>
+      <label class="btn btn-outline-dark"><input type="radio"> Hatchback</label>
+      <label class="btn btn-outline-dark"><input type="radio"> Sedan</label>
+      <label class="btn btn-outline-dark"><input type="radio"> SUV</label>
+    </div>
+    <div class="btn-group mb-2">
+      <button class="btn btn-outline-secondary" type="button">Under &#8377;1500</button>
+      <button class="btn btn-outline-secondary" type="button">&#8377;1500&ndash;2500</button>
+    </div>
+  </div>
+
+  <h5 class="font-weight-bold mb-3">Rate card <span class="badge badge-success">4 available</span></h5>
+  <div class="table-responsive mb-5">
+    <table class="table table-striped table-hover table-bordered mb-0">
+      <thead class="thead-dark">
+        <tr><th>Car</th><th>Type</th><th>Transmission</th><th>Seats</th><th>Per day</th><th>Status</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Maruti Swift</td><td>Hatchback</td><td>Manual</td><td>5</td><td>&#8377;1,299</td>
+            <td><span class="badge badge-success">Available</span></td></tr>
+        <tr><td>Hyundai i20</td><td>Hatchback</td><td>Manual</td><td>5</td><td>&#8377;1,499</td>
+            <td><span class="badge badge-success">Available</span></td></tr>
+        <tr><td>Honda City</td><td>Sedan</td><td>Automatic</td><td>5</td><td>&#8377;1,799</td>
+            <td><span class="badge badge-warning">Booked till 21 Aug</span></td></tr>
+        <tr><td>Hyundai Verna</td><td>Sedan</td><td>Automatic</td><td>5</td><td>&#8377;1,899</td>
+            <td><span class="badge badge-success">Available</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section-title h3 mb-4">Choose your car</h2>
+  <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card car-card h-100 shadow-sm">
+          <img class="card-img-top" src="img/swift.jpg" alt="Maruti Swift">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+              <h5 class="mb-1">Maruti Swift</h5>
+              <span class="badge badge-soft">Hatchback</span>
+            </div>
+            <p class="small text-muted mb-2">Petrol &middot; Manual &middot; 5 seats</p>
+            <p class="card-text small">Best mileage in the fleet, perfect for the old city lanes.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="price">&#8377;1,299 <small class="text-muted font-weight-normal">/day</small></span>
+              <a href="booking.html" class="btn btn-sm btn-amber">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card car-card h-100 shadow-sm">
+          <img class="card-img-top" src="img/i20.jpg" alt="Hyundai i20">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+              <h5 class="mb-1">Hyundai i20</h5>
+              <span class="badge badge-soft">Hatchback</span>
+            </div>
+            <p class="small text-muted mb-2">Petrol &middot; Manual &middot; 5 seats</p>
+            <p class="card-text small">A little more room and a smoother ride than the Swift.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="price">&#8377;1,499 <small class="text-muted font-weight-normal">/day</small></span>
+              <a href="booking.html" class="btn btn-sm btn-amber">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card car-card h-100 shadow-sm">
+          <img class="card-img-top" src="img/city.jpg" alt="Honda City">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+              <h5 class="mb-1">Honda City</h5>
+              <span class="badge badge-soft">Sedan</span>
+            </div>
+            <p class="small text-muted mb-2">Petrol &middot; Automatic &middot; 5 seats</p>
+            <p class="card-text small">Automatic gearbox, cruise friendly for the Rajkot highway.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="price">&#8377;1,799 <small class="text-muted font-weight-normal">/day</small></span>
+              <a href="booking.html" class="btn btn-sm btn-amber">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card car-card h-100 shadow-sm">
+          <img class="card-img-top" src="img/verna.jpg" alt="Hyundai Verna">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+              <h5 class="mb-1">Hyundai Verna</h5>
+              <span class="badge badge-soft">New</span>
+            </div>
+            <p class="small text-muted mb-2">Petrol &middot; Automatic &middot; 5 seats</p>
+            <p class="card-text small">The newest car in the fleet with a large boot.</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <span class="price">&#8377;1,899 <small class="text-muted font-weight-normal">/day</small></span>
+              <a href="booking.html" class="btn btn-sm btn-amber">Book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <ul class="pagination justify-content-center mt-2">
+    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</div>
+
+<footer class="site-footer pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h6>Drive Easy</h6>
+        <p class="small mb-2">Self drive cars in Jamnagar. Clean cars, full tanks and fixed prices
+        since 2024.</p>
+        <p class="small mb-0"><i class="fa fa-phone"></i> +91 98765 43210<br>
+        <i class="fa fa-envelope-o"></i> hello@driveeasy.in</p>
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <h6>Company</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <h6>Rentals</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a href="fleet.html">Our fleet</a></li>
+          <li><a href="booking.html">Book a car</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h6>Office</h6>
+        <p class="small mb-2">Airport Road, Near Khodiyar Colony,<br>Jamnagar 361006, Gujarat</p>
+        <p class="small mb-0">Open daily 8 am &ndash; 9 pm</p>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <div class="d-flex justify-content-between flex-wrap small">
+      <span>&copy; 2026 Drive Easy, Jamnagar. All rights reserved.</span>
+      <span>Built with Bootstrap 4</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
